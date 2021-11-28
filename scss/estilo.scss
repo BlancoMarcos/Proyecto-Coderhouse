@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+// COLORES
+
+$color_black: black;
+$color_white: #FAFAFA;
+$color_grey: #88887C;
+$color_green: rgb(81, 175, 97);
+$color_red: rgb(214, 129, 129);
+$color_yellow: #dddd9b;
+$color_lightblue: #C4D8F2;
+
+
+// BODY
+
+body{
+    background-color: $color_black;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-top: 40px;
+    text-align: center;
+    color: $color_red;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+    color: $color_red;
+}
+
+p{
+    font-size: 20px;
+    color: $color_white;
+    text-align: center;
+}
+
+.margin__lr{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.margin__tb{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+// HEADER
+
+.header{
+    display: block;
+}
+
+.header__logo{
+    padding-top: 20px;
+}
+
+.nav-menu{
+    text-transform: uppercase;
+    padding: 40px;
+    font-size: 26px;
+}
+
+.nav-menu__list{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-menu__item{
+    color: $color_lightblue;
+}
+
+.navbar__menu{
+    display: flex;
+}
+
+// FOOTER
+
+.footer{
+    padding-top: 40px;
+}
+
+.footer__flex{
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+// ANIMACIONES
+
+.zoom{
+    transition: transform 2s;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+
+
+// IMPORT
+
+@import "index.scss";
+@import "biografía.scss";
+@import "clubes.scss";
+@import "selección.scss";
+@import "estadísticas.scss";
+@import "contacto.scss";
