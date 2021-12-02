@@ -15,10 +15,6 @@
     padding: 50px;
 }
 
-    .footer__img{
-        width: 50px;
-        padding-bottom: 20px;
-    }
 
 @media screen and (max-width: 576px){
 
@@ -32,6 +28,11 @@
     .footer__flex{
         flex-direction: column;
         text-align: center;
+    }
+    
+    .icon{
+        width: 50px;
+        padding-bottom: 20px;
     }
     
     p{

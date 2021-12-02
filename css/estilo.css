@@ -69,14 +69,20 @@ p {
   justify-content: space-evenly;
   text-align: center; }
 
-.footer__img {
-  width: 70px; }
+.icon {
+  width: 90px; }
 
 .zoom {
   transition: transform 2s; }
 
 .zoom:hover {
   transform: scale(1.5); }
+
+.zoom-img {
+  transition: transform 1.5s; }
+
+.zoom-img:hover {
+  transform: scale(1.15); }
 
 .imgSize {
   padding-top: 60px; }
@@ -103,7 +109,7 @@ p {
   .footer__flex {
     flex-direction: column;
     text-align: center; }
-  .footer__img {
+  .icon {
     width: 50px;
     padding-bottom: 20px; } }
 
@@ -165,10 +171,6 @@ p {
   font-style: italic;
   padding: 50px; }
 
-.footer__img {
-  width: 50px;
-  padding-bottom: 20px; }
-
 @media screen and (max-width: 576px) {
   .navbar-nav {
     text-transform: uppercase;
@@ -177,6 +179,9 @@ p {
   .footer__flex {
     flex-direction: column;
     text-align: center; }
+  .icon {
+    width: 50px;
+    padding-bottom: 20px; }
   p {
     font-size: 15px; } }
 
@@ -227,7 +232,7 @@ p {
   .footer__flex {
     flex-direction: column;
     text-align: center; }
-  .footer__img {
+  .icon {
     width: 50px;
     padding-bottom: 20px; }
   p {
@@ -290,7 +295,7 @@ p {
   .footer__flex {
     flex-direction: column;
     text-align: center; }
-  .footer__img {
+  .icon {
     width: 50px;
     padding-bottom: 20px; }
   .arg-main__text {
@@ -357,7 +362,7 @@ p {
   .footer__flex {
     flex-direction: column;
     text-align: center; }
-  .footer__img {
+  .icon {
     width: 50px;
     padding-bottom: 20px; }
   h2 {
@@ -415,7 +420,7 @@ p {
   .footer__flex {
     flex-direction: column;
     text-align: center; }
-  .footer__img {
+  .icon {
     width: 50px;
     padding-bottom: 20px; }
   h2 {

@@ -102,10 +102,9 @@ p{
     text-align: center;
 }
 
-.footer__img{
-    width: 70px;
+.icon{
+    width: 90px;
 }
-
 
 // ANIMACIONES
 
@@ -116,6 +115,15 @@ p{
 .zoom:hover{
     transform: scale(1.5);
 }
+
+.zoom-img{
+    transition: transform 1.5s;
+}
+
+.zoom-img:hover{
+    transform: scale(1.15);
+}
+
 
 
 
