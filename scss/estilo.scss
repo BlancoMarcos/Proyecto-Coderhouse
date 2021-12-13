@@ -109,19 +109,11 @@ p{
 // ANIMACIONES
 
 .zoom{
-    transition: transform 2s;
+    transition: transform 1.5s;
 }
 
 .zoom:hover{
     transform: scale(1.2);
-}
-
-.zoom-img{
-    transition: transform 0.5s;
-}
-
-.zoom-img:hover{
-    transform: scale(1.15);
 }
 
 
