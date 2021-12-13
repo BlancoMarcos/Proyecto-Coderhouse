@@ -10,6 +10,13 @@
 }
 
 @media screen and (max-width: 576px){
+    .title{
+        width: 100%;
+    }
+
+    .margin__lr{
+        margin: 0px;
+    }
 
     .navbar-nav{
         text-transform: uppercase;

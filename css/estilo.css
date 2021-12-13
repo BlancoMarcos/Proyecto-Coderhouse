@@ -97,21 +97,11 @@ p {
   text-align: center;
   font-style: italic; }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 576px) {
   .title {
     width: 100%; }
   .margin__lr {
     margin: 0px; }
-  .nav-menu {
-    text-align: center; }
-  .footer__flex {
-    flex-direction: column;
-    text-align: center; }
-  .icon {
-    width: 50px;
-    padding-bottom: 20px; } }
-
-@media screen and (max-width: 576px) {
   .nav-menu {
     text-align: center; }
   .footer__flex {
@@ -196,6 +186,10 @@ p {
   padding: 50px; }
 
 @media screen and (max-width: 576px) {
+  .title {
+    width: 100%; }
+  .margin__lr {
+    margin: 0px; }
   .navbar-nav {
     text-transform: uppercase;
     font-size: 15px;
@@ -267,6 +261,10 @@ p {
     font-size: 20px; } }
 
 @media screen and (max-width: 576px) {
+  .title {
+    width: 100%; }
+  .margin__lr {
+    margin: 0px; }
   .navbar-nav {
     text-transform: uppercase;
     font-size: 15px;
@@ -348,6 +346,10 @@ p {
   padding-top: 70px; }
 
 @media screen and (max-width: 576px) {
+  .title {
+    width: 100%; }
+  .margin__lr {
+    margin: 0px; }
   .navbar-nav {
     text-transform: uppercase;
     font-size: 15px;
@@ -428,6 +430,10 @@ p {
   width: 400px; }
 
 @media screen and (max-width: 576px) {
+  .title {
+    width: 100%; }
+  .margin__lr {
+    margin: 0px; }
   .navbar-nav {
     text-transform: uppercase;
     font-size: 15px;
@@ -506,6 +512,10 @@ p {
     font-size: 20px; } }
 
 @media screen and (max-width: 576px) {
+  .title {
+    width: 100%; }
+  .margin__lr {
+    margin: 0px; }
   .navbar-nav {
     text-transform: uppercase;
     font-size: 20px;
