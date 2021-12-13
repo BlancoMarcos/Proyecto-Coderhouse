@@ -97,7 +97,7 @@ p {
   text-align: center;
   font-style: italic; }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
   .title {
     width: 100%; }
   .margin__lr {
