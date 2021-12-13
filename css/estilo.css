@@ -112,10 +112,6 @@ p {
     padding-bottom: 20px; } }
 
 @media screen and (max-width: 768px) {
-  .title {
-    width: 100%; }
-  .margin__lr {
-    margin: 0px; }
   .header__logo {
     width: 100%; }
   .nav-menu {
