@@ -23,6 +23,30 @@
     font-style: italic;
 }
 
+@media screen and (max-width: 360px){
+    .title{
+        width: 100%;
+    }
+
+    .margin__lr{
+        margin: 0px;
+    }
+    
+    .nav-menu{
+        text-align: center;
+    }
+
+    .footer__flex{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon{
+        width: 50px;
+        padding-bottom: 20px;
+    }
+    
+}
 
 @media screen and (max-width: 576px){
     .nav-menu{
